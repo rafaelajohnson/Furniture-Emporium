@@ -1,0 +1,57 @@
+/* Type selector */
+body {
+    background-color: #f9fafb; /* very light gray background */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #1e293b; /* dark slate gray (excellent contrast) */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Class selector */
+  .product-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card h2 {
+    margin-top: 0;
+    color: #0f172a; /* blue-gray */
+  }
+  
+  /* Price styling */
+  .price {
+    font-size: 1.6rem;
+    color: #16a34a; /* green */
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .price s {
+    color: #64748b; /* gray  */
+    font-size: 1rem;
+    margin-left: 12px;
+  }
+  
+  /* Add-to-cart button styling */
+  .add-to-cart {
+    background-color: #2563eb; /* blue */
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #1d4ed8; /* darker blue */
+  }
+  
